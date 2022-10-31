@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to here</h1>
+<h3><span th:text="${name.getName()}+ '님 (id:'+${name.getmID()}"></span>) 회원 가입 되셨습니다. 환영합니다.</h3>
+<form action="/">
+    <input type="submit" value="Home">
+</form>
+</body>
+</html>
